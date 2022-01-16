@@ -11,6 +11,7 @@ class WeatherCard extends React.Component {
   };
 
   render() {
+    // destructure data
     const { data } = this.props;
     return (
       <div className="App" id="roundedCard">
