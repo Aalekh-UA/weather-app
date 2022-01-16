@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+#roundedCard {
+  border-radius: 16px;
+  background: #f0ece3;
+  width: 600px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+#main {
+  display: flex;
+  justify-content: space-between;
+}
